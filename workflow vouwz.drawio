@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="gMUWrm_7eQ1wLzMDzJMH">
-    <mxGraphModel dx="2411" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3580" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="-872" y="-311" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="nA2eG2OlHx3KnQ0AuUty-4" value="Vérification de la prise en charge" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-1010" y="62" width="246" height="66" as="geometry" />
+          <mxGeometry x="-990" y="62" width="226" height="66" as="geometry" />
         </mxCell>
         <mxCell id="nA2eG2OlHx3KnQ0AuUty-5" value="Paiement avant consultation" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-714" y="62" width="172" height="66" as="geometry" />
@@ -186,6 +186,26 @@
         </mxCell>
         <mxCell id="HcI9NC6vFRKDhO4VCnra-38" value="Obtenir les médicaments injectables à la pharmacie" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="210" y="-511.5" width="166" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-41" value="CNAM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1195" y="190" width="110" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HcI9NC6vFRKDhO4VCnra-42" target="HcI9NC6vFRKDhO4VCnra-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HcI9NC6vFRKDhO4VCnra-42" target="HcI9NC6vFRKDhO4VCnra-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-42" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="55" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-44" value="SUNU ASSURANCE" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1370" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nA2eG2OlHx3KnQ0AuUty-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1100" y="95" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
