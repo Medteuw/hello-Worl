@@ -13,8 +13,8 @@
         <mxCell id="nA2eG2OlHx3KnQ0AuUty-3" value="Patient a une assurance ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-872" y="-311" width="230" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="nA2eG2OlHx3KnQ0AuUty-4" value="Vérification de la prise en charge" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="-990" y="62" width="226" height="66" as="geometry" />
+        <mxCell id="nA2eG2OlHx3KnQ0AuUty-4" value="Vérification de la prise en charge / montant partiel " style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-1000" y="62" width="226" height="66" as="geometry" />
         </mxCell>
         <mxCell id="nA2eG2OlHx3KnQ0AuUty-5" value="Paiement avant consultation" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="-714" y="62" width="172" height="66" as="geometry" />
