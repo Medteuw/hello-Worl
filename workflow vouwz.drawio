@@ -133,14 +133,16 @@
         <mxCell id="HcI9NC6vFRKDhO4VCnra-23" value="Hospitalisation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-290" y="-594" width="166" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="HcI9NC6vFRKDhO4VCnra-24" value="Sortie et paiement des frais de Chambre et hopitalisation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-24" value="Sortie et paiement des frais de Chambre et hopitalisation, medicaments" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-380" y="-50" width="220" height="66" as="geometry" />
         </mxCell>
         <mxCell id="HcI9NC6vFRKDhO4VCnra-25" value="Fin" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-231" y="100" width="82" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="HcI9NC6vFRKDhO4VCnra-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HcI9NC6vFRKDhO4VCnra-27" target="HcI9NC6vFRKDhO4VCnra-32">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HcI9NC6vFRKDhO4VCnra-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="-490.75" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HcI9NC6vFRKDhO4VCnra-27" value="Prescription par le médecin sur la Fiche d&#39;hospitalisation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-90" y="-511.5" width="166" height="41.5" as="geometry" />
@@ -173,6 +175,17 @@
           <mxGeometry x="-0.5852" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HcI9NC6vFRKDhO4VCnra-38" target="HcI9NC6vFRKDhO4VCnra-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="293" y="-430" />
+              <mxPoint x="-220" y="-430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HcI9NC6vFRKDhO4VCnra-38" value="Obtenir les médicaments injectables à la pharmacie" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-511.5" width="166" height="51.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
