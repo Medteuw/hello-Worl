@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="_qit7Jh8nTsNqAhubyeU">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-1" value="Demandeur" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="217" y="20" width="142" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-2" value="Alias email : expression@smartmssa.com" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="213" y="176" width="149" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-3" value="Ticket d&#39;assistance dans Odoo" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="32" y="297" width="233" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-4" value="Demande de validation dans Odoo" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="297" width="225" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-5" value="Notification au responsable d&#39;approbation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="413" width="256" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-6" value="Responsable d&#39;approbation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="443.5" y="440" width="198" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-7" value="Processus de validation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="560" width="226" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-8" value="Traitement final de la demande" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="435" y="660" width="216" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-9" value="Envoie un email avec description&#xa;et Manager en CC" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eJL7NaeF4U9NNeN7SWyU-1" target="eJL7NaeF4U9NNeN7SWyU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-10" value="Création automatique" style="curved=1;startArrow=none;endArrow=block;exitX=0.13;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eJL7NaeF4U9NNeN7SWyU-2" target="eJL7NaeF4U9NNeN7SWyU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-11" value="Création automatique" style="curved=1;startArrow=none;endArrow=block;exitX=0.991;exitY=0.621;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eJL7NaeF4U9NNeN7SWyU-3" target="eJL7NaeF4U9NNeN7SWyU-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="320" />
+              <mxPoint x="290" y="340" />
+              <mxPoint x="380" y="320" />
+            </Array>
+            <mxPoint x="400" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eJL7NaeF4U9NNeN7SWyU-3" target="eJL7NaeF4U9NNeN7SWyU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eJL7NaeF4U9NNeN7SWyU-4" target="eJL7NaeF4U9NNeN7SWyU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-14" value="Validation et approbation" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eJL7NaeF4U9NNeN7SWyU-6" target="eJL7NaeF4U9NNeN7SWyU-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eJL7NaeF4U9NNeN7SWyU-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="eJL7NaeF4U9NNeN7SWyU-7" target="eJL7NaeF4U9NNeN7SWyU-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
